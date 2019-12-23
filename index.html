@@ -36,7 +36,7 @@
           <h2>Experience art like never before.</h2>
 
           <div class="hero-content-left-text">
-            Living ARt is an augmented reality (AR) and virtual reality (VR) native mobile app that brings your favorite artwork to life through animations and sound.
+            An augmented reality (AR) and virtual reality (VR) native mobile app bringing famous art to life through animation and sound.
           </div>
           <br><br>
           <a href="https://github.com/living-ARt" target="_blank">
@@ -58,14 +58,11 @@
             </div>
 
             <div class="tab">
-              <!-- <div class="tab-title"> -->
                 <input type="radio" name="tabgroup" id="vr-demo">
                 <label for="vr-demo">VR</label>
-              <!-- </div> -->
               <div class="tab-content">
                 <img src="assets/demo-views/vr-view.PNG" />
               </div>
-
             </div>
 
           </div>
@@ -82,16 +79,19 @@
 
         <div class="about-section">
           <div class="about-section-left">
-            <p>insert youtube video here</p>
+            <div class="youtube-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FZWfWnc7Brg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
 
           <div class="about-section-right">
             <p>
-              Living ARt redefines the way art is experienced by creating an immersive and interactive environment.
+              Redefining the way art is experienced through an immersive and interactive environment.
               <br><br>
-              The AR experience uses image recognition technology so all you need to do is tap the <b>Open AR</b> button found in app and point the camera at a painting found in our animated library list and an animation will load directly on top of it. Tap and swipe on the playing animation to play a sound description about the piece.
+              Image recognition technology makes it possible to play an animated versions of any artwork found in our library using the AR view. Enhancing the experience, a sound description of the piece and artist is available to play.
               <br><br>
-              Immerse yourself further using the VR experience. You have the option of choosing regular VR view which displays the animated painting directly in front of you or 360 view which shows the painting all around you. Simply put on your VR headset and watch the painting come to life.
+              Immerse yourself further using the VR options. Choose
+              regular VR to display the animated painting directly in front of you or 360 view which shows the painting all around you. Simply put on your VR headset and watch the painting come to life.
             </p>
           </div>
         </div>
@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <div class="container about">
+    <div class="container developers">
       <div class="section-title">
         <h2>Developed by:</h2>
       </div>
@@ -225,20 +225,32 @@
     </div>
 
     <script>
-      (function($, document) {
 
-    // get tallest tab-content element
-    let height = -1;
+    //   $(function() {
+	  //     $('.scroll , a').bind('click',function(event){
+	  //         let $anchor = $(this);
 
-  $('.tab-content').each(function() {
-    height = height > $(this).outerHeight() ? height : $(this).outerHeight();
-       $(this).css('position', 'absolute');
-  });
+	  //         $('html, body').stop().animate({
+	  //             scrollTop: $($anchor.attr('href')).offset().top -0
+	  //         }, 1000,'easeInOutExpo');
+	  //         event.preventDefault();
+	  //     });
+    // });
 
-    // set height of tabs + top offset
-  // $('[data-tabs]').css('min-height', height + 40 + 'px');
+    //   (function($, document) {
 
-}(jQuery, document));
+    //   // get tallest tab-content element
+    //   let height = -1;
+
+    //   $('.tab-content').each(function() {
+    //     height = height > $(this).outerHeight() ? height : $(this).outerHeight();
+    //       $(this).css('position', 'absolute');
+    //   });
+
+    //   // set height of tabs + top offset
+    //   // $('[data-tabs]').css('min-height', height + 40 + 'px');
+
+    // }(jQuery, document));
     </script>
 </body>
 
