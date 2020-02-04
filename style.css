@@ -9,7 +9,6 @@ a {
   list-style: none;
   text-decoration: none;
   color: white;
-  /* transition: opacity .125s linear; */
 }
 
 li {
@@ -239,9 +238,7 @@ a:visited {
   font-size: 1.25em;
 }
 
-
-/* TECH SECTION  */
-
+/* TECH STACK SECTION  */
 #tech-stack h2 {
   padding-top: 10px;
 }
@@ -288,7 +285,6 @@ a:visited {
   border-radius: 2px;
   font-family: 'Lato', sans-serif;;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-
 }
 
 .developer-card img {
@@ -296,6 +292,7 @@ a:visited {
   height: 200px;
   transition: transform .5s;
 }
+
 .developer-card img:hover {
   transform: scale(1.05);
 }
@@ -316,6 +313,7 @@ a:visited {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .developer-card .contact-icons i {
   transition: transform .5s;
 }
@@ -341,6 +339,9 @@ a:visited {
 }
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
   .hero-container {
     margin-top: 125px;
   }
@@ -350,24 +351,18 @@ a:visited {
   .hero-container .hero-content-left {
     padding-right: 40px;
   }
-  h1 {
-    font-size: 42px;
-  }
   .hero-container .hero-content-left-text {
     font-size: 18px;
   }
-
+  #about .about-section .about-section-left iframe {
+    width: 340px;
+    height: 192px;
+  }
   .about-section {
     flex-direction: column;
   }
   .about-section-right {
     font-size: 18px;
-  }
-  .tech-logos {
-    justify-content: space-between;
-  }
-  .tech-logos .item img {
-    width: 80px;
   }
   #tech-stack .tech-logos > div:nth-child(6) img {
     width: 60px;
@@ -375,12 +370,14 @@ a:visited {
   #tech-stack .tech-logos > div:nth-child(5) > img {
     width: 140px;
   }
-  #about .about-section .about-section-left iframe {
-    width: 340px;
-    height: 192px;
+  .tech-logos {
+    justify-content: space-between;
   }
-
+  .tech-logos .item img {
+    width: 80px;
+  }
 }
+
 @media only screen and (max-width: 640px) {
   h2 {
     font-size: 36px;
@@ -391,7 +388,6 @@ a:visited {
   .tech-logos .item {
     padding: 20px;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
