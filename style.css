@@ -354,6 +354,22 @@ a:visited {
   .hero-container .hero-content-left {
     padding-right: 40px;
   }
+  .tech-logos {
+    justify-content: space-between;
+  }
+  .tech-logos .item img {
+    width: 80px;
+  }
+  #tech-stack .tech-logos > div:nth-child(6) img {
+    width: 60px;
+  }
+  #tech-stack .tech-logos > div:nth-child(5) > img {
+    width: 140px;
+  }
+  #about .about-section .about-section-left iframe {
+    width: 340px;
+    height: 192px;
+  }
 
 }
 @media only screen and (max-width: 640px) {
@@ -362,7 +378,8 @@ a:visited {
   }
   .tech-logos .item {
     padding: 20px;
-}
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
